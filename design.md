@@ -48,6 +48,32 @@ Left → Node → Right
 
 This is one of the most important BST features.
 
+Three Cases for Node Deletion
+
+Case 1: Node is a Leaf (0 Children)
+This is the simplest case.
+
+The node is simply removed (deleted) from the tree.
+
+The pointer from its parent (either the left or right pointer) is set to NULL (or nullptr).
+
+Case 2: Node has 1 Child
+The node to be deleted is skipped in the lineage.
+
+The child node is directly linked to the parent of the deleted node, taking the deleted node's place.
+
+The node is then deleted.
+
+Case 3: Node has 2 Children
+This is the most complex case, as simply deleting the node would leave a "hole" in the tree with two subtrees needing to connect.
+
+The node to be deleted is replaced by its In-order Successor.
+
+The In-order Successor is the node that comes immediately after the deleted node in a sorted (in-order) list, which is always the smallest node in the right subtree (found by traversing left repeatedly from the right child).
+
+The data of the successor is copied into the node to be deleted.
+
+The successor node itself (which is guaranteed to have 0 or 1 child) is then recursively deleted from the right subtree using Case 1 or Case 2 logic.
 
 ![from Geekforgeeks.com](Introduction-to-Binary-Tree.webp)
 
