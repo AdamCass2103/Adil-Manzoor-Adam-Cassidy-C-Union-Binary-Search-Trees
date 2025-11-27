@@ -71,3 +71,59 @@ void BST::inorder() const {
     inorder(root);
     std::cout << std::endl;
 }
+
+// ------------------------------
+// REMOVE
+// ------------------------------
+BST::Node* BST::remove(Node* node, int key) {
+    if (node == nullptr) return nullptr;
+
+    if (key < node->key) {
+        node->left = remove(node->left, key);
+    } else if (key > node->key) {
+        node->right = remove(node->right, key);
+    } else {
+        // Node with only one child or no child
+        if (node->left == nullptr) {
+            Node* temp = node->right;
+            delete node;
+            return temp;
+        } else if (node->right == nullptr) {
+            Node* temp = node->left;
+            delete node;
+            return temp;
+        }
+
+        // Node with two children: Get the inorder successor (smallest in the right subtree)
+        Node* temp = node->right;
+        while (temp->left != nullptr) {
+            temp = temp->left;
+        }
+
+        // Copy the inorder successor's content to this node
+        node->key = temp->key;
+
+        // Delete the inorder successor
+        node->right = remove(node->right, temp->key);
+    }
+    return node;
+}
+
+void BST::remove(int key) {
+    root = remove(root, key); // Call the recursive helper function
+}
+
+// ------------------------------
+// FIND MINIMUM
+// ------------------------------
+int BST::findMin() const {
+    if (root == nullptr) {
+        throw std::runtime_error("BST is empty");
+    }
+
+    Node* current = root;
+    while (current->left != nullptr) {
+        current = current->left;
+    }
+    return current->key;
+}

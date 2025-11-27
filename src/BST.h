@@ -21,14 +21,20 @@ private:
     void inorder(Node* node) const;
     void destroy(Node* node);
 
+    // Private helper for remove
+    Node* remove(Node* node, int key);
+
 public:
     BST();      // Constructor
     ~BST();     // Destructor
 
-    
     void insert(int key);
     bool search(int key) const;
     void inorder() const;
+
+    // New methods for advanced operations
+    void remove(int key); // Remove a node with the given key
+    int findMin() const;  // Find the minimum key in the BST
 };
 
 #endif
