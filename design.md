@@ -47,3 +47,7 @@ In-order traversal visits nodes in sorted order:
 Left → Node → Right
 
 This is one of the most important BST features.
+
+
+![from Geekforgeeks.com](Introduction-to-Binary-Tree.webp)
+
