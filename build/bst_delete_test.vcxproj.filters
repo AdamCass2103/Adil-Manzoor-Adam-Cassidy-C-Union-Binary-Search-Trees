@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\student\IdeaProjects\Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1\src\bst_deletion_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\student\IdeaProjects\Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1\src\BST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\student\IdeaProjects\Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1\src\BST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\student\IdeaProjects\Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{EDA52510-0E5A-3BEC-9586-5A168D01C0B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7DB61D70-0A7B-3ADD-AFCB-1160FDCCD0D5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

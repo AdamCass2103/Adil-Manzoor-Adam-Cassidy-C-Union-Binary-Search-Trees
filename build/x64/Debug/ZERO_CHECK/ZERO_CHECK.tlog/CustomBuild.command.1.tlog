@@ -1,0 +1,10 @@
+^C:\USERS\STUDENT\IDEAPROJECTS\ADIL-MANZOOR-ADAM-CASSIDY-C-UNION-BINARY-SEARCH-TREES-1\BUILD\CMAKEFILES\4909A5D3F46518F7AA9F4505BBED4DD9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/student/IdeaProjects/Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1 -BC:/Users/student/IdeaProjects/Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/student/IdeaProjects/Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1/build/BSTProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

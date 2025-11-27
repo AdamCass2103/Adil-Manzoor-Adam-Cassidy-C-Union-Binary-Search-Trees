@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\student\IdeaProjects\Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1\build\CMakeFiles\4909a5d3f46518f7aa9f4505bbed4dd9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6040B0DB-25AB-3252-8CE4-35993E229EF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

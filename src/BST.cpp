@@ -1,4 +1,5 @@
 #include "BST.h"
+#include <stdexcept>
 
 // Constructor
 BST::BST() : root(nullptr) {}

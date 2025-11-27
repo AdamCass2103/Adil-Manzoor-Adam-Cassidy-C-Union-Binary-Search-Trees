@@ -1,0 +1,4 @@
+C:/Users/student/IdeaProjects/Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1/build/CMakeFiles/bst_demo.dir
+C:/Users/student/IdeaProjects/Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1/build/CMakeFiles/bst_delete_test.dir
+C:/Users/student/IdeaProjects/Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/student/IdeaProjects/Adil-Manzoor-Adam-Cassidy-C-Union-Binary-Search-Trees-1/build/CMakeFiles/ZERO_CHECK.dir

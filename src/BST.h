@@ -1,6 +1,7 @@
 #ifndef BST_H
 #define BST_H
 
+#include <stdexcept>
 #include <iostream>
 
 class BST {
